@@ -2,6 +2,7 @@ import {Routes, Route} from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import CreateUser from './components/CreateUser';
 import UpdateUser from './components/UpdateUser';
+import { useEffect } from 'react';
 function App() {
   return (
     <div >

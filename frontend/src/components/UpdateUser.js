@@ -31,7 +31,6 @@ const UpdateUser=()=>{
     return (
         <div className="form-wrapper">
             <form onSubmit={submit}>
-            <div>
                 <h2>UPDATE USER</h2>
                 <div className="cover">
                     <label>Name</label>
@@ -47,7 +46,6 @@ const UpdateUser=()=>{
                 </div>
                 <div className="cover"><button className="edit">Update</button></div>
                 
-            </div>
             </form>
         </div>
     )
